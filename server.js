@@ -13,7 +13,7 @@ const authRoutes = require('./routes/authRoutes');
 const logRoutes = require('./routes/logRoutes');
 const aiRoutes = require('./routes/aiRoutes');
 const scanRoutes = require('./routes/scanRoutes');
-const ttsRoute = require('./routes/TtsRoute');
+const ttsRoute = require('./routes/Ttsroute');
 
 const app = express();
 
