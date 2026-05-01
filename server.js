@@ -5,7 +5,7 @@ const cors = require('cors');
 const sequelize = require('./config/db');
 
 // Models
-require('./models/User');
+require('./models/user');
 require('./models/Log');
 
 // Routes
