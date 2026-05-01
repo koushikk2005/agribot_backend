@@ -50,7 +50,11 @@ Keep it simple.
             {
                 model: "openai/gpt-oss-120b:free",
                 messages: [
-                    { role: "user", content: prompt }
+                                {
+                    role: "system",
+                    content: `You must reply ONLY in ${selectedLang}. Never use English. Use native script.`
+                },
+                      { role: "user", content: prompt }
                 ],
                 reasoning: { enabled: true }
             },
